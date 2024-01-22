@@ -6,4 +6,6 @@ mlflow
 django
 flask
 scikit-learn
-urllib
+sqlalchemy
+pymysql
+imblearn

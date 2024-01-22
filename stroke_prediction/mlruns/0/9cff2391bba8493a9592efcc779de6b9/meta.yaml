@@ -1,0 +1,15 @@
+artifact_uri: file:///z:/E2E/stroke_predict/stroke_prediction/mlruns/0/9cff2391bba8493a9592efcc779de6b9/artifacts
+end_time: 1705941120848
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9cff2391bba8493a9592efcc779de6b9
+run_name: Logistic_wo_smote
+run_uuid: 9cff2391bba8493a9592efcc779de6b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705941111472
+status: 3
+tags: []
+user_id: shubh

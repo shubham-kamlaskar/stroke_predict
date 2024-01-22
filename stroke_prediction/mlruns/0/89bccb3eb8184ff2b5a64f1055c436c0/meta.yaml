@@ -1,0 +1,15 @@
+artifact_uri: file:///z:/E2E/stroke_predict/stroke_prediction/mlruns/0/89bccb3eb8184ff2b5a64f1055c436c0/artifacts
+end_time: 1705941696488
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 89bccb3eb8184ff2b5a64f1055c436c0
+run_name: upbeat-shrew-563
+run_uuid: 89bccb3eb8184ff2b5a64f1055c436c0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705941684526
+status: 4
+tags: []
+user_id: shubh
