@@ -1,0 +1,15 @@
+artifact_uri: file:///z:/E2E/stroke_predict/stroke_prediction/mlruns/0/41916bddaac64a99b182df24e3e64b92/artifacts
+end_time: 1705943143917
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 41916bddaac64a99b182df24e3e64b92
+run_name: Logistic_W/o_Smote
+run_uuid: 41916bddaac64a99b182df24e3e64b92
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705943134827
+status: 3
+tags: []
+user_id: shubh
