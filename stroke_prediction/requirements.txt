@@ -1,0 +1,9 @@
+numpy
+pandas
+seaborn
+matplotlib
+mlflow
+django
+flask
+scikit-learn
+urllib
