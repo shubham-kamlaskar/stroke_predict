@@ -1,0 +1,15 @@
+artifact_uri: file:///z:/E2E/stroke_predict/stroke_prediction/mlruns/0/03b2a20c6f5d4c7a96ec00cbcd5da8da/artifacts
+end_time: 1706002558281
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 03b2a20c6f5d4c7a96ec00cbcd5da8da
+run_name: polite-bear-532
+run_uuid: 03b2a20c6f5d4c7a96ec00cbcd5da8da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706002549269
+status: 3
+tags: []
+user_id: shubh

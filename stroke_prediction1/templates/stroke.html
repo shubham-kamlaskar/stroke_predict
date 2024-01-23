@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Heart Stroke Prediction
+            </title>
+        </head>
+
+<body>
+    <form method="POST">
+        {% csrf_token %}
+        <p> Gender : <select name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+            <p> Ever Married : <select name="married">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+                <p> Work Type :  <select name="work">
+                    <option value="Govt_job">Govt_job</option>
+                    <option value="Never_worked">Never_worked</option>
+                    <option value="Private">Private	</option>
+                    <option value="children">children</option>
+                </select>
+                    <p> Residence Type :  <select name="residence">
+                        <option value="Urban">Urban</option>
+                        <option value="Rural">Rural</option>
+                    </select>
+                        <p> Smoking Status : <select name="smoking">
+                            <option value="Unknown">Unknown</option>
+                            <option value="formerly_smoked">Formerly_smoked</option>
+                            <option value="never_smoked">Never_smoked</option>
+                            <option value="smokes">Smokes</option>
+                        </select>
+                            <p> Age : <input type="text" name="age"> </p>
+                                <p> BMI : <input type="text" name="age"> </p>
+
+                                <p> <button name="Predict">Predict</button><p>
+
+                                </form>
+                                
+                        <p> Stroke Prediction is : {{stroke}}
+
+                        </body>
+                        </html>

@@ -1,0 +1,15 @@
+artifact_uri: file:///z:/E2E/stroke_predict/stroke_prediction/mlruns/0/1aa204f962bc45848ff0b8857109b81a/artifacts
+end_time: 1706002541249
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1aa204f962bc45848ff0b8857109b81a
+run_name: upbeat-horse-683
+run_uuid: 1aa204f962bc45848ff0b8857109b81a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706002532754
+status: 3
+tags: []
+user_id: shubh

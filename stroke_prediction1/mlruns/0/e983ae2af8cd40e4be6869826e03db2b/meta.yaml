@@ -1,0 +1,15 @@
+artifact_uri: file:///z:/E2E/stroke_predict/stroke_prediction/mlruns/0/e983ae2af8cd40e4be6869826e03db2b/artifacts
+end_time: 1706002549136
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e983ae2af8cd40e4be6869826e03db2b
+run_name: Final_lre
+run_uuid: e983ae2af8cd40e4be6869826e03db2b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706002541347
+status: 3
+tags: []
+user_id: shubh
