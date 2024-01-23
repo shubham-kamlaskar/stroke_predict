@@ -27,10 +27,12 @@ mysql_url = f"mysql+pymysql://{db_credentials['username']}:{db_credentials['pass
 # Create a SQLAlchemy engine
 income_db = sa.create_engine(mysql_url)
 
+with open("mlruns/0/e983ae2af8cd40e4be6869826e03db2b/artifacts/LogisticRegression/model.pkl","rb") as f:
+    model = pickle.load(f)
+
 def home(request):
     try:
-        with open(r"stroke_prediction1/mlruns/0/e983ae2af8cd40e4be6869826e03db2b/artifacts/LogisticRegression/model.pkl","rb") as f:
-            model = pickle.load(f)
+        prediction = 0
         if request.method == "POST":
             gender = request.POST.get("gender")
             married = request.POST.get("married")
@@ -40,10 +42,13 @@ def home(request):
             age = float(request.POST.get("age"))
             bmi = float(request.POST.get("bmi"))
 
-            prediction = model.predict(np.array[[gender,married,work,residence,smoking,age,bmi]])
+            trans = model.transform(gender,age,0,0,married,work,residence,0,bmi,smoking)
+
+            prediction = model.predict(np.array[trans])
             prediction = prediction[0]
     
     except Exception as e:
         prediction =str(e)
+        logging.warning(prediction)
            
-    return render(request, 'stroke.html',{"stroke":prediction})
+    return render(request, 'stroke.html',{"stroke":smoking})
